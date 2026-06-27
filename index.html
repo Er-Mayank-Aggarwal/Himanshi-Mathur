@@ -1475,7 +1475,6 @@
                     </div>
 
                     <div id="gag-arrow">
-                        <div class="point">⬆️</div>
                         <div id="gag-text"></div>
                     </div>
 
@@ -1860,7 +1859,6 @@
             // Move the arrow up to point at the gift box
             arrow.style.bottom = 'auto';
             arrow.style.top = '-44px';
-            arrow.querySelector('.point').style.transform = 'rotate(180deg)';
 
             gsap.fromTo(gagText, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.5, delay: 0.4, ease: 'back.out(1.5)' });
         });
